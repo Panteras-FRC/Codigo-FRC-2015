@@ -9,9 +9,11 @@ http://pulsedlight3d.com
 #define MeasureValue 0x04 // Value to initiate ranging.
 #define RegisterHighLowB 0x8f // Register to get both High and Low bytes in 1 call.
 int reading = 0;
+int readingOld = 0;
+
 void setup()
 {
-  Wire.begin(); // join i2c bus
+  Wire.begin(2); // join i2c bus
   Serial.begin(9600); // start serial communication at 9600bps
 }
 void loop()
@@ -31,7 +33,9 @@ void loop()
     reading = Wire.read(); // receive high byte (overwrites previous reading)
     reading = reading << 8; // shift high byte to be high 8 bits
     reading |= Wire.read(); // receive low byte as lower 8 bits
-    Serial.println(reading); // print the reading
+    if (reading >! (readingOld*10)){
+      Serial.println(reading); // print the reading
+      readingOld = reading;
+    }
   }
 }
-
