@@ -23,7 +23,7 @@ void loop()
 // aCount is the number of bytes received.
 void receiveCallback(int aCount)
 {
-  if(aCount == 2)
+  if(aCount == 4)
   {
     char receivedValue = Wire.read() << 8;
     receivedValue |= Wire.read();
@@ -37,6 +37,7 @@ void receiveCallback(int aCount)
 }
 
 void requestCallback(){
+  Serial.println("data requested");
   Wire.write(reading);
 }
 
