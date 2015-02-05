@@ -773,7 +773,6 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_AccelerometerInternalGetAcceleration.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/InternalAccelerometer/WPI_AccelerometerInternalGetAcceleration.vi"/>
 				<Item Name="WPI_I2CGetSetRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CGetSetRefNum.vi"/>
 				<Item Name="WPI_I2CRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CRefNum Registry Set.vi"/>
-				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="WPI_I2CRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CRefNum Registry Get.vi"/>
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
 			</Item>
@@ -800,9 +799,8 @@ AddOutputFilter chunkFilter
 			<Item Name="seleccion de nivel.vi" Type="VI" URL="../seleccion de nivel.vi"/>
 			<Item Name="I2C Lidar Present.vi" Type="VI" URL="../I2C Lidar Present.vi"/>
 			<Item Name="Pi-DAR.vi" Type="VI" URL="../Pi-DAR.vi"/>
-			<Item Name="Averaging Smooth.vi" Type="VI" URL="../Averaging Smooth.vi"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Logica de switch.vi" Type="VI" URL="../Logica de switch.vi"/>
+			<Item Name="Mapa Global.vi" Type="VI" URL="../Mapa Global.vi"/>
+			<Item Name="2283_mapaLIDAR.vi" Type="VI" URL="../2283_mapaLIDAR.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
