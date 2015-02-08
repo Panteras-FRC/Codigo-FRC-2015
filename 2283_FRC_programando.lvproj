@@ -799,7 +799,15 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_CANTalonSRX_GetStatus.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_GetStatus.vi"/>
 				<Item Name="NetComm_getMatchTime.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_getMatchTime.vi"/>
 				<Item Name="WPI_DriverStationGetRemainingMatchTime.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationGetRemainingMatchTime.vi"/>
-				<Item Name="WPI_CANTalonSRX_ChangeMode.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_ChangeMode.vi"/>
+				<Item Name="WPI_CompressorRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorRefNum Registry Set.vi"/>
+				<Item Name="WPI_CompressorGetSetRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorGetSetRefNum.vi"/>
+				<Item Name="WPI_CAN_PCMReceive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PCM/WPI_CAN_PCMReceive.vi"/>
+				<Item Name="WPI_CompressorGetEnableState.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorGetEnableState.vi"/>
+				<Item Name="WPI_CompressorRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorRefNum Registry Get.vi"/>
+				<Item Name="WPI_Power Get PCM Compressor Current.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get PCM Compressor Current.vi"/>
+				<Item Name="WPI_CANTalonSRX_APIFeedbackSelect.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_APIFeedbackSelect.ctl"/>
+				<Item Name="WPI_CANTalonSRX_SetReference.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_SetReference.vi"/>
+				<Item Name="WPI_CANTalonSRX_SetPID.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_SetPID.vi"/>
 			</Item>
 			<Item Name="2283_driveTrain.vi" Type="VI" URL="../2283_driveTrain.vi"/>
 			<Item Name="2283_gyro.vi" Type="VI" URL="../2283_gyro.vi"/>
@@ -819,7 +827,6 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Drive encoders.vi" Type="VI" URL="../Drive encoders.vi"/>
 			<Item Name="niveles.vi" Type="VI" URL="../niveles.vi"/>
 			<Item Name="seleccion de nivel.vi" Type="VI" URL="../seleccion de nivel.vi"/>
 			<Item Name="I2C Lidar Present.vi" Type="VI" URL="../I2C Lidar Present.vi"/>
