@@ -2,6 +2,7 @@
 #define SlaveDeviceId 0x64 // ID Arduino
 
 int Red, Green, Blue;
+char message[256];
 
 void setup()
 {
@@ -30,10 +31,11 @@ void receiveCallback(int aCount)
     Serial.println(Blue);
     break;
   case 0x01:
-    char message;
+    char messageTemp[(aCount-1)];
     for(int i = 0; i <= (aCount-1); i++){
-      message = message + Wire.read();
+      messageTemp[i] = Wire.read();
     }
+    strcat(message,messageTemp);
     Serial.println(message);
     break;
   default:
