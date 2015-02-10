@@ -126,16 +126,16 @@ AddOutputFilter chunkFilter
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="2283_LED controllers.vi" Type="VI" URL="../2283_LED controllers.vi"/>
 		<Item Name="2283_calibrarElevador.vi" Type="VI" URL="../2283_calibrarElevador.vi"/>
 		<Item Name="2283_controlDePistones.vi" Type="VI" URL="../2283_controlDePistones.vi"/>
 		<Item Name="2283_girarGrados.vi" Type="VI" URL="../2283_girarGrados.vi"/>
 		<Item Name="Botones Global.vi" Type="VI" URL="../Botones Global.vi"/>
 		<Item Name="Calibracion Elevador Global.vi" Type="VI" URL="../Calibracion Elevador Global.vi"/>
 		<Item Name="Drive Global.vi" Type="VI" URL="../Drive Global.vi"/>
-		<Item Name="botones driver.vi" Type="VI" URL="../botones driver.vi"/>
+		<Item Name="Botones Driver Global.vi" Type="VI" URL="../Botones Driver Global.vi"/>
 		<Item Name="LIDAR Global.vi" Type="VI" URL="../LIDAR Global.vi"/>
 		<Item Name="Distancia Global.vi" Type="VI" URL="../Distancia Global.vi"/>
-		<Item Name="2283_LED controllers.vi" Type="VI" URL="../2283_LED controllers.vi"/>
 		<Item Name="Contol de autonomo global.vi" Type="VI" URL="../Contol de autonomo global.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -828,12 +828,12 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="niveles.vi" Type="VI" URL="../niveles.vi"/>
-			<Item Name="seleccion de nivel.vi" Type="VI" URL="../seleccion de nivel.vi"/>
+			<Item Name="2283_seleccionDeNivel.vi" Type="VI" URL="../2283_seleccionDeNivel.vi"/>
 			<Item Name="I2C Lidar Present.vi" Type="VI" URL="../I2C Lidar Present.vi"/>
 			<Item Name="Pi-DAR.vi" Type="VI" URL="../Pi-DAR.vi"/>
 			<Item Name="Mapa Global.vi" Type="VI" URL="../Mapa Global.vi"/>
 			<Item Name="2283_mapaLIDAR.vi" Type="VI" URL="../2283_mapaLIDAR.vi"/>
-			<Item Name="Logica de switch.vi" Type="VI" URL="../Logica de switch.vi"/>
+			<Item Name="2283_logicaDeSwitch.vi" Type="VI" URL="../2283_logicaDeSwitch.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
