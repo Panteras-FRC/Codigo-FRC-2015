@@ -140,6 +140,8 @@ AddOutputFilter chunkFilter
 		<Item Name="Distancia Global.vi" Type="VI" URL="../Distancia Global.vi"/>
 		<Item Name="Contol de autonomo global.vi" Type="VI" URL="../Contol de autonomo global.vi"/>
 		<Item Name="Gyro Global.vi" Type="VI" URL="../Gyro Global.vi"/>
+		<Item Name="2283_Outputs autonomo.vi" Type="VI" URL="../2283_Outputs autonomo.vi"/>
+		<Item Name="2283_Inputs autonomo.vi" Type="VI" URL="../2283_Inputs autonomo.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
