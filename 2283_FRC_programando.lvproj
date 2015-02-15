@@ -140,8 +140,6 @@ AddOutputFilter chunkFilter
 		<Item Name="Distancia Global.vi" Type="VI" URL="../Distancia Global.vi"/>
 		<Item Name="Contol de autonomo global.vi" Type="VI" URL="../Contol de autonomo global.vi"/>
 		<Item Name="Gyro Global.vi" Type="VI" URL="../Gyro Global.vi"/>
-		<Item Name="2283_Outputs autonomo.vi" Type="VI" URL="../2283_Outputs autonomo.vi"/>
-		<Item Name="2283_Inputs autonomo.vi" Type="VI" URL="../2283_Inputs autonomo.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -839,6 +837,8 @@ AddOutputFilter chunkFilter
 			<Item Name="Mapa Global.vi" Type="VI" URL="../Mapa Global.vi"/>
 			<Item Name="2283_mapaLIDAR.vi" Type="VI" URL="../2283_mapaLIDAR.vi"/>
 			<Item Name="2283_logicaDeSwitch.vi" Type="VI" URL="../2283_logicaDeSwitch.vi"/>
+			<Item Name="2283_Inputs autonomo.vi" Type="VI" URL="../2283_Inputs autonomo.vi"/>
+			<Item Name="2283_Outputs autonomo.vi" Type="VI" URL="../2283_Outputs autonomo.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
