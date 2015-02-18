@@ -812,6 +812,7 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_CANTalonSRX_APIFeedbackSelect.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_APIFeedbackSelect.ctl"/>
 				<Item Name="WPI_CANTalonSRX_SetReference.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_SetReference.vi"/>
 				<Item Name="WPI_CANTalonSRX_SetPID.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_SetPID.vi"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 			</Item>
 			<Item Name="2283_driveTrain.vi" Type="VI" URL="../2283_driveTrain.vi"/>
 			<Item Name="2283_gyro.vi" Type="VI" URL="../2283_gyro.vi"/>
@@ -840,6 +841,8 @@ AddOutputFilter chunkFilter
 			<Item Name="2283_logicaDeSwitch.vi" Type="VI" URL="../2283_logicaDeSwitch.vi"/>
 			<Item Name="2283_Inputs autonomo.vi" Type="VI" URL="../2283_Inputs autonomo.vi"/>
 			<Item Name="2283_Outputs autonomo.vi" Type="VI" URL="../2283_Outputs autonomo.vi"/>
+			<Item Name="Averaging Smooth.vi" Type="VI" URL="../Averaging Smooth.vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
