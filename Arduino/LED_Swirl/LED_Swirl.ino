@@ -3,7 +3,7 @@
 // public domain, enjoy!
 
 #define REDPIN 9
-#define GREENPIN 11
+#define GREENPIN 1
 #define BLUEPIN 10
 
 #define FADESPEED 5     // make this higher to slow down
