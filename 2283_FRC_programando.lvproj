@@ -125,24 +125,44 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
+		<Item Name="2283 VIs" Type="Folder">
+			<Item Name="2283_driveTrain.vi" Type="VI" URL="../2283_driveTrain.vi"/>
+			<Item Name="2283_gyroPID.vi" Type="VI" URL="../2283_gyroPID.vi"/>
+			<Item Name="2283_gyroLogica&amp;Control.vi" Type="VI" URL="../2283_gyroLogica&amp;Control.vi"/>
+			<Item Name="2283_LEDControllers.vi" Type="VI" URL="../2283_LEDControllers.vi"/>
+			<Item Name="2283_controlDeElevador.vi" Type="VI" URL="../2283_controlDeElevador.vi"/>
+			<Item Name="2283_controlDePistones.vi" Type="VI" URL="../2283_controlDePistones.vi"/>
+			<Item Name="2283_girarGrados.vi" Type="VI" URL="../2283_girarGrados.vi"/>
+			<Item Name="2283_autoAlign.vi" Type="VI" URL="../2283_autoAlign.vi"/>
+			<Item Name="2283_lidarPID.vi" Type="VI" URL="../2283_lidarPID.vi"/>
+			<Item Name="2283_elevadorPID.vi" Type="VI" URL="../2283_elevadorPID.vi"/>
+			<Item Name="2283_nivelesElevador.vi" Type="VI" URL="../2283_nivelesElevador.vi"/>
+			<Item Name="2283_mapaLIDAR.vi" Type="VI" URL="../2283_mapaLIDAR.vi"/>
+			<Item Name="2283_logicaDeSwitch.vi" Type="VI" URL="../2283_logicaDeSwitch.vi"/>
+			<Item Name="2283_seleccionDeNivel.vi" Type="VI" URL="../2283_seleccionDeNivel.vi"/>
+		</Item>
+		<Item Name="2283 Globales" Type="Folder">
+			<Item Name="Outputs Autonomo Global.vi" Type="VI" URL="../Outputs Autonomo Global.vi"/>
+			<Item Name="Botones Global.vi" Type="VI" URL="../Botones Global.vi"/>
+			<Item Name="Calibracion Elevador Global.vi" Type="VI" URL="../Calibracion Elevador Global.vi"/>
+			<Item Name="Drive Train Global.vi" Type="VI" URL="../Drive Train Global.vi"/>
+			<Item Name="Botones Driver Global.vi" Type="VI" URL="../Botones Driver Global.vi"/>
+			<Item Name="LIDAR Global.vi" Type="VI" URL="../LIDAR Global.vi"/>
+			<Item Name="Distancia Global.vi" Type="VI" URL="../Distancia Global.vi"/>
+			<Item Name="Contol De Autonomo Global.vi" Type="VI" URL="../Contol De Autonomo Global.vi"/>
+			<Item Name="Gyro Boolean Global.vi" Type="VI" URL="../Gyro Boolean Global.vi"/>
+			<Item Name="Grip Overwrite Global.vi" Type="VI" URL="../Grip Overwrite Global.vi"/>
+			<Item Name="Dejar Caja Global.vi" Type="VI" URL="../Dejar Caja Global.vi"/>
+			<Item Name="Nivel Global.vi" Type="VI" URL="../Nivel Global.vi"/>
+			<Item Name="DevRefs Global.vi" Type="VI" URL="../DevRefs Global.vi"/>
+			<Item Name="Cuernitos Global.vi" Type="VI" URL="../Cuernitos Global.vi"/>
+			<Item Name="Mapa Global.vi" Type="VI" URL="../Mapa Global.vi"/>
+		</Item>
+		<Item Name="2283 Controles" Type="Folder">
+			<Item Name="Seleccion de Nivel Control.ctl" Type="VI" URL="../Seleccion de Nivel Control.ctl"/>
+			<Item Name="Secuencia de Recoger Control.ctl" Type="VI" URL="../Secuencia de Recoger Control.ctl"/>
+		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="2283_LEDControllers.vi" Type="VI" URL="../2283_LEDControllers.vi"/>
-		<Item Name="2283_calibrarElevador.vi" Type="VI" URL="../2283_calibrarElevador.vi"/>
-		<Item Name="2283_controlDePistones.vi" Type="VI" URL="../2283_controlDePistones.vi"/>
-		<Item Name="2283_girarGrados.vi" Type="VI" URL="../2283_girarGrados.vi"/>
-		<Item Name="2283_autoAlign.vi" Type="VI" URL="../2283_autoAlign.vi"/>
-		<Item Name="2283_lidarPID.vi" Type="VI" URL="../2283_lidarPID.vi"/>
-		<Item Name="Botones Global.vi" Type="VI" URL="../Botones Global.vi"/>
-		<Item Name="Calibracion Elevador Global.vi" Type="VI" URL="../Calibracion Elevador Global.vi"/>
-		<Item Name="Drive Global.vi" Type="VI" URL="../Drive Global.vi"/>
-		<Item Name="Botones Driver Global.vi" Type="VI" URL="../Botones Driver Global.vi"/>
-		<Item Name="LIDAR Global.vi" Type="VI" URL="../LIDAR Global.vi"/>
-		<Item Name="Distancia Global.vi" Type="VI" URL="../Distancia Global.vi"/>
-		<Item Name="Contol de autonomo global.vi" Type="VI" URL="../Contol de autonomo global.vi"/>
-		<Item Name="Gyro Global.vi" Type="VI" URL="../Gyro Global.vi"/>
-		<Item Name="Grip Overwrite Global.vi" Type="VI" URL="../Grip Overwrite Global.vi"/>
-		<Item Name="Dejar Caja Global.vi" Type="VI" URL="../Dejar Caja Global.vi"/>
-		<Item Name="Nivel Global.vi" Type="VI" URL="../Nivel Global.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -586,7 +606,6 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_GyroGetAngle.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Gyro/WPI_GyroGetAngle.vi"/>
 				<Item Name="WPI_GyroGetSetRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Gyro/WPI_GyroGetSetRefNum.vi"/>
 				<Item Name="WPI_GyroOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Gyro/WPI_GyroOpen.vi"/>
-				<Item Name="WPI_GyroRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Gyro/WPI_GyroRefNum Registry Get.vi"/>
 				<Item Name="WPI_GyroRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Gyro/WPI_GyroRefNum Registry Set.vi"/>
 				<Item Name="WPI_JoystickClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickClose.vi"/>
 				<Item Name="WPI_JoystickDeviceEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickDeviceEnum.ctl"/>
@@ -708,7 +727,6 @@ AddOutputFilter chunkFilter
 				<Item Name="i2clib_open.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/i2clib/i2clib_open.vi"/>
 				<Item Name="WPI_I2COpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2COpen.vi"/>
 				<Item Name="WPI_GyroReset.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Gyro/WPI_GyroReset.vi"/>
-				<Item Name="WPI_EncoderRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Encoder/WPI_EncoderRefNum Registry Get.vi"/>
 				<Item Name="FPGA_EncoderReadTimerOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Encoder/FPGA_EncoderReadTimerOutput.vi"/>
 				<Item Name="FPGA_EncoderReadOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Encoder/FPGA_EncoderReadOutput.vi"/>
 				<Item Name="FPGA_CounterReadTimerOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Counter/FPGA_CounterReadTimerOutput.vi"/>
@@ -792,24 +810,15 @@ AddOutputFilter chunkFilter
 				<Item Name="Validate Rectangle.vi" Type="VI" URL="/&lt;vilib&gt;/picture/scale.llb/Validate Rectangle.vi"/>
 				<Item Name="Autoscale Polar as Needed.vi" Type="VI" URL="/&lt;vilib&gt;/picture/polarplt.llb/Autoscale Polar as Needed.vi"/>
 				<Item Name="Polar Plot with Point Options.vi" Type="VI" URL="/&lt;vilib&gt;/picture/polarplt.llb/Polar Plot with Point Options.vi"/>
-				<Item Name="WPI_CANTalonSRX_Receive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_Receive.vi"/>
-				<Item Name="WPI_CANTalonSRX_GetStatus.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_GetStatus.vi"/>
-				<Item Name="NetComm_getMatchTime.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_getMatchTime.vi"/>
-				<Item Name="WPI_DriverStationGetRemainingMatchTime.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationGetRemainingMatchTime.vi"/>
 				<Item Name="WPI_CompressorRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorRefNum Registry Set.vi"/>
 				<Item Name="WPI_CompressorGetSetRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorGetSetRefNum.vi"/>
 				<Item Name="WPI_CAN_PCMReceive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PCM/WPI_CAN_PCMReceive.vi"/>
 				<Item Name="WPI_CompressorGetEnableState.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorGetEnableState.vi"/>
-				<Item Name="WPI_CompressorRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorRefNum Registry Get.vi"/>
-				<Item Name="WPI_Power Get PCM Compressor Current.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get PCM Compressor Current.vi"/>
 				<Item Name="WPI_CANTalonSRX_APIFeedbackSelect.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_APIFeedbackSelect.ctl"/>
 				<Item Name="WPI_CANTalonSRX_SetReference.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_SetReference.vi"/>
 				<Item Name="WPI_CANTalonSRX_SetPID.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_SetPID.vi"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 			</Item>
-			<Item Name="2283_driveTrain.vi" Type="VI" URL="../2283_driveTrain.vi"/>
-			<Item Name="2283_gyro.vi" Type="VI" URL="../2283_gyro.vi"/>
-			<Item Name="2283_gyroLogica&amp;Control.vi" Type="VI" URL="../2283_gyroLogica&amp;Control.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -825,15 +834,8 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="niveles.vi" Type="VI" URL="../niveles.vi"/>
-			<Item Name="2283_seleccionDeNivel.vi" Type="VI" URL="../2283_seleccionDeNivel.vi"/>
 			<Item Name="I2C Lidar Present.vi" Type="VI" URL="../I2C Lidar Present.vi"/>
 			<Item Name="Pi-DAR.vi" Type="VI" URL="../Pi-DAR.vi"/>
-			<Item Name="Mapa Global.vi" Type="VI" URL="../Mapa Global.vi"/>
-			<Item Name="2283_mapaLIDAR.vi" Type="VI" URL="../2283_mapaLIDAR.vi"/>
-			<Item Name="2283_logicaDeSwitch.vi" Type="VI" URL="../2283_logicaDeSwitch.vi"/>
-			<Item Name="Inputs Automo Global.vi" Type="VI" URL="../Inputs Automo Global.vi"/>
-			<Item Name="Outputs Autonomo Global.vi" Type="VI" URL="../Outputs Autonomo Global.vi"/>
 			<Item Name="Averaging Smooth.vi" Type="VI" URL="../Averaging Smooth.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
